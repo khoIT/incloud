@@ -1,0 +1,14 @@
+<div class="jumbotron">
+    Respond to InCloudCounsel Challenge
+</div>
+<table ng-table class="table">
+  <tr ng-repeat="client in clients">
+    <td data-title="'Id'">{{client.id}}</td>
+    <td data-title="'Name'">{{client.name}}</td>
+    <td data-title="'Service Contract($)'">{{client.serviceContractSum}}</td>
+    <td data-title="'Terms of Service($)'">{{client.termServiceSum}}</td>
+    <td data-title="'NDA($)'">{{client.NDA}}</td>
+    <td data-title="'Total($)'">{{client.sum}}</td>
+  </tr>
+</table>
+
